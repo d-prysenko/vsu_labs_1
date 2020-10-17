@@ -48,7 +48,7 @@ int fileToMatrix(const char* filename, wchar_t** out, size_t size)
 	{
 		wchar_t curChar = wif.get();
 		if (curChar == L' ')
-			continue;			// Не уверен в использовании continue при кодревью, но в The C Programming Language в подобных местах используется continue
+			continue;			// РќРµ СѓРІРµСЂРµРЅ РІ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРё continue РїСЂРё РєРѕРґСЂРµРІСЊСЋ, РЅРѕ РІ The C Programming Language РІ РїРѕРґРѕР±РЅС‹С… РјРµСЃС‚Р°С… РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ continue
 		if (curChar == L'\n')
 		{
 			i++;
